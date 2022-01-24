@@ -58,9 +58,7 @@ Message写某个小时(如13,则为13点),就可以现在触发一次那个小�
 1. 请尝试手动删除/添加config分支.env文件中的GLOBAL_ACCELERATOR_NA=true,尝试关闭/或开启境外加速.(默认开启,且建议开启)
 2. 启用随机分钟部署(默认开启,在定时的小时随机抽取分钟进行执行).关闭请直接禁用Random Cron workflow
 ### Github部署日志:未找到函数执行入口文件
-云函数面板删除函数,更改Secret函数名字TENCENT_FUNCTION_NAME(就是随便换个函数名字),重新运行action部署.
-### 云函数流量异常高,触发日志与流量日志对不上
-解决方法同上
+云函数面板删除函数,更改函数名字TENCENT_FUNCTION_NAME(Secret)(就是随便换个函数名字),重新运行action部署.
 ### 仓库存在的文件,云函数报'cannot find the moudle'
 解决方法同上
 ### 函数缺文件,只有几个文件
