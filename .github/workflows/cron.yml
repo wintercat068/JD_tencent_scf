@@ -1,4 +1,4 @@
-name: Random Cron
+name: Random Cron(偶尔异常没有影响)
 on:
   schedule:
     - cron: '0 2,9,17 * * *'
