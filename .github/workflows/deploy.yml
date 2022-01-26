@@ -71,7 +71,7 @@ jobs:
 #       - name: version check
 #         working-directory: ./JD_tencent_scf
 #         run: |
-#           sls info | grep Nodejs16.13 && sls remove || sls remove
+#           sls info | grep Nodejs16.13 && sls remove
       - name: deploy
         working-directory: ./JD_tencent_scf
         run: |
