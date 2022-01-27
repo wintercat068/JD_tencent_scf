@@ -38,6 +38,8 @@ Message写某个小时(如13,则为13点),就可以现在触发一次那个小�
 
 存在问题:加密脚本可能不能远程执行
 ## FAQ(常见问题):
+### 部署失败如何查看action错误日志?
+![](https://github.com/zero205/JD_tencent_scf/raw/main/backUp/aclog.png)
 ### 脚本什么时候执行?
 配合下方'面向高级用户'第1和3条,阅读config.json文件.不难的,尝试读一下就能理解.
 ### 异步执行日志都乱的,怎么看日志?
